@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 1500px;
+    padding: 20px;
+    object-fit: cover;
+}
+.header{
+    background-color: rgb(116, 195, 169);
+    padding: 10px;
+    color: crimson;
+    font-size: 25px;
+    position:sticky;
+  
+    right: 0%;
+    top: 0%;
+    text-align: center;
+}
+.content{
+    margin-top: 20px;
+}
+.box{
+    height: 300px;
+    background-color: bisque;
+    margin-bottom: 20px;
+    padding: 30px;
+
+    object-fit: cover;
+
+}

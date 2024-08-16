@@ -6,13 +6,30 @@
     background-image: url("./WORK2/images/nightcrawler.jpg");
     height: 100vh;
     background-position:top;
-    position: relative;
 }
 .box{
-    position: absolute;
+
     top: 50%;
     left: 50%;
 }
 .nav{
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+  
+    background-color: rgb(125, 247, 206);
+    position: fixed;
     
 }
+.right{
+    display: flex;
+
+   
+    
+}
+.left{
+    display: flex;
+   
+}
+

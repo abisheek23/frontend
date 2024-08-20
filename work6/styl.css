@@ -1,0 +1,35 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+.container{
+    margin:250px;
+    background-color: rgb(249, 249, 250);
+    width: 50vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+} 
+
+.c1{
+    background-color: white;
+    
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.c11>img{
+    height:50vh;
+    width: 50vw;
+}
+.c12{
+    margin: 10px;
+    
+}
+    

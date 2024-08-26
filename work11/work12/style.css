@@ -1,0 +1,17 @@
+.image{
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    overflow-y: hidden;  
+}
+.image>img{
+    border: 2px solid red ;
+    margin: 20px
+   
+}
+img:hover{
+    transform: scale(.5);
+    transform: translate(20px);
+    transform:rotate(100deg);
+
+}

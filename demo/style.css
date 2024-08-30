@@ -1,0 +1,23 @@
+.container>div{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin: 50px ;
+    padding: 20px;
+
+    /* transition: 10s; */
+    
+}
+.container{
+    width: 100vw;
+   
+    display: flex;
+    
+    /* flex-wrap: wrap; */
+}
+div:hover{
+    transform: scale(1.2);
+}
+div::shadow{
+    background-color: aqua;
+}

@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    height: 80px;
+    background-color: rgb(56, 56, 56);
+    
+}
+.nav nav{
+    margin-top: 10px;
+    display: flex;
+    margin: 15px;
+    align-content: space-between;
+    
+}
+
+ul{
+    margin-top: 30px;
+    display: flex;
+    align-content: space-between;
+    list-style: none;
+    gap: 20px;
+    margin-left: 10px;
+}
+.list a{
+    text-decoration: none;
+}
+
+
+.nav img{
+    width: 220px;
+    height: 70PX;
+    
+
+}
+.list li:hover{
+    transform: scale(1.1);
+    text-underline-offset: 1px;
+    text-decoration: underline red;
+
+}
+
+

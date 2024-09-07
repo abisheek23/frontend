@@ -4,7 +4,10 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css" />
+ 
+        <link rel="stylesheet" href="./css/style.css">
+
+    
         <title>CSS Navigation Menu</title>
     </head>
 
@@ -37,14 +40,33 @@
                     <div>
                         <ul>
                               express delivary
-                            <li>select your nearest stor </li>
+                            <p>select your nearest stor </p>
                         </ul>
                     </div>
                 </div>
+                <div class="birla">
                 <img src="./imgage/ABFRL_logo_image.svg" alt="">
+                </div>
             </nav>
       </div>
-       
+      <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"class="active"></li>
+            <li data-target="#carousel" data-slide-to="2"class="active"></li>
+        </ol>
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+            <div class="active item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+        <!-- Carousel nav -->
+        <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+        <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
+    </div>
+    <script src= "./js/bootstrap.bundle.min.js"></script>
+     
     </body>
 
 </html>

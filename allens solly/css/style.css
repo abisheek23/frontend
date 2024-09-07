@@ -9,6 +9,7 @@ body {
 }
 
 header {
+    width: 100vw;
     height: 80px;
     background-color: rgb(56, 56, 56);
     
@@ -57,34 +58,89 @@ ul{
     justify-content: last baseline;
 }
 .con1{
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left:70vw;
     width: 250px;
     height: 50px;
     background-color: yellow;
     border-radius: 50px;
     display: flex;
-    position: relative;
+    position: absolute;
+    
 }
 .con1 div{
-    margin-left: 40px;
-    position: absolute;
+    margin-left: 25px;
+    position: relative;
+    display: flex;
 }
-.con1 ul{
-    margin-left: 35px;
-    flex-wrap: wrap;
-    margin: 0;
-
-}
-.con1 img{
+.con1 img {
     margin-top: 25px;
-    margin-left:
+    margin-left:10px
 
 }
-
+.birla{
+    margin-left: 15%;
+}
 .list li:hover{
     transform: scale(1.1);
     text-underline-offset: 1px;
     text-decoration: underline red;
 
+}
+
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+        }
+        
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .carousel-control {
+        z-index: 2;
+    }
+}
+
+
+
+html, 
+body, 
+.carousel, 
+.carousel-inner, 
+.carousel-inner .item {
+    height: 100%;
+}
+
+.item:nth-child(1) {
+    background: #74C390;
+}
+
+.item:nth-child(2) {
+    background: #51BCE8;
+}
+
+.item:nth-child(3) {
+    background: #E46653;
 }
 @media(min-width:470px)and (max-width:867px)
 {
@@ -97,6 +153,12 @@ ul{
 }
 .logo img{
     width: 100;
+}
+.con1{
+   
+    margin-left:40vw;
+    
+    
 }
 
 

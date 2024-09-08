@@ -142,6 +142,32 @@ body,
 .item:nth-child(3) {
     background: #E46653;
 }
+
+.container1{
+        margin: 25PX;
+        height: 300px;
+        width: 100vw    ;
+        justify-content: center;
+    }
+    
+    
+    
+    .contaainer1>div {
+       
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contaainer1 .img1div {
+        margin: 10px;
+        width: 150px;
+        height: 150PX;
+        border-radius: 100%;
+        object-fit: cover;
+        border: 1px solid black;
+        padding: 2px;
+    }
+
 @media(min-width:470px)and (max-width:867px)
 {
 .nav nav{
